@@ -1,0 +1,32 @@
+{
+  "name": "gulp",
+  "version": "1.0.0",
+  "description": "gulp-plugins",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "latest",
+    "gulp-concat": "latest",
+    "gulp-iconfont": "latest",
+    "gulp-minify-css": "latest",
+    "gulp-plumber": "latest",
+    "gulp-uglify": "latest",
+    "gulp-util": "latest",
+    "gulp-sourcemaps": "latest",
+    "gulp-browser-sync": "latest",
+    "autoprefixer": "latest",
+    "gulp-load-plugins": "latest",
+    "gulp-clean": "latest",
+    "gulp-rename": "latest",
+    "gulp-filesize": "latest",
+    "gulp-watch": "latest",
+    "gulp-less": "latest",
+    "gulp-changed": "latest",
+    "gulp-jshint":"latest",
+    "gulp-yuidoc":"latest"
+  }
+}
