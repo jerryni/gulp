@@ -99,3 +99,18 @@ gulp.task('yuidoc', function() {
         .pipe(yuidoc())
         .pipe(gulp.dest('./jsdocoutput'));
 });
+
+
+var imagemin = require('gulp-imagemin'),
+    pngquant = require('imagemin-pngquant');
+
+// 无损压缩文件
+gulp.task('imagemin', function(){
+  gulp.src('src/images/**')
+      .pipe(imagemin({
+          progressive: true,
+          svgoPlugins: [{removeViewBox: false}],
+          use: [pngquant()]
+      }))
+      .pipe(gulp.dest('src/images/dist/'));
+});

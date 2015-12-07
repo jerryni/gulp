@@ -27,6 +27,8 @@
     "gulp-less": "latest",
     "gulp-changed": "latest",
     "gulp-jshint":"latest",
-    "gulp-yuidoc":"latest"
+    "gulp-yuidoc":"latest",
+    "gulp-imagemin": "^2.4.0",
+    "imagemin-pngquant": "^4.2.0"
   }
 }
