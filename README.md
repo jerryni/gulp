@@ -25,7 +25,7 @@ http://jerryni.github.io/gulp/jsdocoutput/index.html
 
 151207: 增加imagemin, 无损压缩(sho实践的成果)
 
-在images文件夹, 放入图片, 生成到images/dist/文件夹中:
+在`src/images`文件夹, 放入图片, 生成到`images/dist/`文件夹中:
 
 ![imagemin]
 
